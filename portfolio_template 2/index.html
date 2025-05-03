@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>당신의 이름</h1>
+        <p>안녕하세요! 저는 웹 개발자/디자이너입니다.</p>
+    </header>
+
+    <section id="projects">
+        <h2>작품 소개</h2>
+        <div class="gallery">
+            <img src="images/sample1.jpg" alt="프로젝트 1">
+            <img src="images/sample2.jpg" alt="프로젝트 2">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>문의하기</h2>
+        <form action="https://formspree.io/f/폼ID" method="POST">
+            <input type="text" name="name" placeholder="이름" required>
+            <input type="email" name="email" placeholder="이메일" required>
+            <textarea name="message" placeholder="메시지" required></textarea>
+            <button type="submit">보내기</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 당신의 이름</p>
+    </footer>
+</body>
+</html>
